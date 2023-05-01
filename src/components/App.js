@@ -19,7 +19,7 @@ const App = () => {
       <form>
       <label>
         <input
-          type="checkbox"
+          type="radio"
           name="option"
           value="Male"
           checked={selectedOption === "Male"}
@@ -29,7 +29,7 @@ const App = () => {
       </label>
       <label>
         <input
-          type="checkbox"
+          type="radio"
           name="option"
           value="Female"
           checked={selectedOption === "Female"}
